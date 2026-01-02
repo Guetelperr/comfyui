@@ -18,13 +18,17 @@ PIP_PACKAGES=(
     #"package-2"
 )
 
+TEXT_ENCODERS=(
+     "https://civitai.com/api/download/models/2474529?type=Model&format=SafeTensor&size=pruned&fp=fp8"   
+)
+
 NODES=(
     "https://github.com/ltdrdata/ComfyUI-Manager"
     "https://github.com/cubiq/ComfyUI_essentials"
 )
 
 CHECKPOINT_MODELS=(
-    
+    "https://civitai.com/api/download/models/2549032?type=Model&format=SafeTensor&size=pruned&fp=nf4"
 )
 
 UNET_MODELS=(
@@ -36,7 +40,7 @@ LORA_MODELS=(
 )
 
 VAE_MODELS=(
-    
+    "https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/vae/ae.safetensors"
 )
 
 UPSCALE_MODELS=(
